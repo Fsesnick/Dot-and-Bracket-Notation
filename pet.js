@@ -33,6 +33,21 @@ set owner(owner){
   
 }
 
+class Dono {
+  constructor(name, address){
+    this.name = name;
+    this.address = address;
+  }
+  
+  set phone(phone){
+    const phoneNormalized = ohine.replace(/[^0-9]/g, '');
+    this._phone = phoneNormalized;
+
+}
+}
+
+
+
 const ernie = new Pet('dog',1,'pug', 'yip yip');
 const vera = new Pet('dog', 8, 'border collie', 'woof woof');
 
