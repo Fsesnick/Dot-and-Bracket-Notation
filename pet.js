@@ -8,7 +8,14 @@ class Pet {
   
   get activity(){
     const today = new Date();
-    const hours = today.getHours();
+    const hour = today.getHours();
+  
+  if(hour > 8 && hour  <= 20){
+    return 'brincando';
+  }else{
+    return 'dormindo';
+  }
+
 }
   
   speak(){
@@ -23,4 +30,5 @@ const vera = new Pet('dog', 8, 'border collie', 'woof woof');
 console.log(ernie);
 
 vera.speak();
+
 */
