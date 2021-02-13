@@ -1,1 +1,2 @@
-const fruits = ['apple', 'pear', 'strawberry'];
+const fruits = ['maca', 'pera', 'morango'];
+fruitsLength = fruits.length;
